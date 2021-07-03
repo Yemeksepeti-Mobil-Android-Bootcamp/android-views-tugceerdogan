@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".SignInActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="10dp"
+        android:text="Welcome Back!"
+        android:textColor="@color/secondScreenTitleColor"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/inter"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Please enter your account here"
+        android:textColor="@color/secondScreenInfoColor"
+        android:textSize="@dimen/secondScreenTextSize"
+        android:fontFamily="@font/inter"/>
+
+    <EditText
+        android:layout_width="327dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_border"
+        android:drawableLeft="@drawable/ic_baseline_email"
+        android:hint="Email or phone number"
+        android:textColor="@color/secondScreenInfoColor"
+        android:textSize="@dimen/secondScreenTextSize"
+        android:fontFamily="@font/inter"
+        android:textAllCaps="false" />
+
+    <EditText
+        android:layout_width="327dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit_text_border"
+        android:drawableLeft="@drawable/ic_baseline_lock"
+        android:drawableRight="@drawable/ic_baseline_show"
+        android:hint="Password"
+        android:textColor="@color/secondScreenInfoColor"
+        android:textSize="@dimen/secondScreenTextSize"
+        android:fontFamily="@font/inter"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="40dp"
+        android:text="Forgot password?"
+        android:textColor="@color/secondScreenTitleColor"
+        android:textSize="@dimen/secondScreenTextSize"
+        android:fontFamily="@font/inter"/>
+
+    <Button
+        android:layout_width="327dp"
+        android:layout_height="62dp"
+        app:cornerRadius="32dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/loginButtonColor"
+        android:text="Login"
+        android:textSize="@dimen/secondScreenTextSize"
+        android:textAllCaps="false"
+        android:fontFamily="@font/inter"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Or continue with"
+        android:textSize="@dimen/secondScreenTextSize"
+        android:textColor="@color/secondScreenInfoColor"
+        android:fontFamily="@font/inter"/>
+
+    <Button
+        android:layout_width="327dp"
+        android:layout_height="62dp"
+        app:cornerRadius="32dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#FF5842"
+        android:drawableLeft="@drawable/google_img"
+        android:text="Google"
+        android:textSize="@dimen/secondScreenTextSize"
+        android:textAllCaps="false"
+        android:fontFamily="@font/inter"
+        android:textAlignment="textStart"
+        android:paddingLeft="120dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have any account? "
+            android:textColor="@color/secondScreenTitleColor"
+            android:textSize="@dimen/secondScreenTextSize"
+            android:textStyle="bold"
+            android:fontFamily="@font/inter"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Sign up"
+            android:textColor="@color/loginButtonColor"
+            android:textSize="@dimen/secondScreenTextSize"
+            android:textStyle="bold"
+            android:fontFamily="@font/inter"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        app:cardBackgroundColor="@color/onboardingScreenBackground">
+        app:cardBackgroundColor="@color/mainScreenBackgroundColor">
 
         <ImageView
             android:layout_width="295dp"
@@ -36,7 +36,7 @@
                 android:layout_width="127dp"
                 android:layout_height="4dp"
                 android:layout_marginBottom="55dp"
-                android:background="#252529"/>
+                android:background="@color/lineColor"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -58,17 +58,17 @@
                 android:layout_marginBottom="36dp"
                 android:text="The world’s most popular app for meeting new people."
                 android:gravity="center"
-                android:textColor="#8A8A8F"
-                android:textSize="15dp"
+                android:textColor="@color/mainScreenInfoColor"
+                android:textSize="15sp"
                 android:fontFamily="@font/inter" />
 
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:layout_width="280dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="36dp"
-                android:backgroundTint="#252529"
+                android:backgroundTint="@color/lineColor"
                 app:cornerRadius="23dp"
                 android:text="Get started"
                 android:textColor="@color/white"
@@ -86,7 +86,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Already have account?"
-                    android:textColor="#252529"
+                    android:textColor="@color/lineColor"
                     android:textSize="13sp"
                     android:fontFamily="@font/proximanovafont" />
 
@@ -95,7 +95,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text=" Log in"
-                    android:textColor="#252529"
+                    android:textColor="@color/lineColor"
                     android:textSize="13sp"
                     android:textStyle="bold"
                     android:fontFamily="@font/proximanovafont" />
